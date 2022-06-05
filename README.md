@@ -163,7 +163,29 @@ alias pipnew="pip install -U pandas numpy prefect scikit-learn seaborn plotly ju
 
 
 
+# .zshrc
+```
+# change command line prompt
+PROMPT='%F{blue}%1~%f %# '
 
+
+# below should be set automatically by conda
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/hale/opt/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/hale/opt/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/hale/opt/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/hale/opt/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+```
 
 
 
