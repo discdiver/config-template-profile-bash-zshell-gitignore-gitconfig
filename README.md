@@ -118,7 +118,6 @@ dmypy.json
     "files.exclude": {
         "**/.git": false
     },
-    "github-enterprise.uri": "https://git.generalassemb.ly/",
     "gitlens.showWelcomeOnInstall": false
 }
 ```
@@ -129,15 +128,15 @@ dmypy.json
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
-# change command line prompt
-PROMPT='%(1V.(%1v).)%F{blue}%1~%f %# '
-
+# add next line to .zshrc for terminal prompt customization
+# PROMPT='%F{blue}%1~%f %# '
 
 
 # Aliases
 alias gs="git status"
 alias gr="git remote -v"
 alias gi="git init"
+alias ga="git add "
 alias gaa="git add -A"
 alias gcm="git commit -m "
 alias gpom="git push origin main"
@@ -157,7 +156,8 @@ alias tp="trash-put"
 
 alias pi="pip install "
 alias piu="pip install -U "
-alias pipnew="pip install -U pandas numpy scikit-learn seaborn plotly jupyterlab streamlit sqlalchemy psycopg2"
+alias pipnew="pip install -U pandas numpy prefect scikit-learn seaborn plotly jupyterlab streamlit sqlalchemy psycopg2"
+
 
 ```
 
@@ -182,6 +182,7 @@ export PS1="\W: "
 alias gs="git status"
 alias gr="git remote -v"
 alias gi="git init"
+alias ga="git add "
 alias gaa="git add -A"
 alias gcm="git commit -m "
 alias gpom="git push origin master"
@@ -205,7 +206,7 @@ alias pi="pip install -U "
 alias pipnew="pip install -U pandas numpy scikit-learn seaborn plotly jupyterlab streamlit sqlalchemy psycopg2"
 
 
-
+# conda should add the following automatically upon install
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/Users/hale/opt/miniconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
