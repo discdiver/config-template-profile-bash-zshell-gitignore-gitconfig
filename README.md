@@ -91,7 +91,7 @@ venv.bak/
 dmypy.json
 ```
 
-.gitconfig 2022
+# .gitconfig 2022
 ```
 [core]
 	editor = code -w
