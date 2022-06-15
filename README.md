@@ -245,3 +245,16 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 ```
+
+
+## If on Mac, to install if can't sync apps from Apple store
+
+``` 
+# keyboard shortcuts to resize and move windows
+brew install --cask rectangle
+
+
+# install clipy for clipboard history
+
+
+```
