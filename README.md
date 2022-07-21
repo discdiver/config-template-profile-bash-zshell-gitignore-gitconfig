@@ -93,13 +93,22 @@ dmypy.json
 
 # .gitconfig 2022
 ```
-[core]
-	editor = code -w
 [init]
 	defaultBranch = main
 [user]
 	name = Jeff Hale
 	email = jeffmshale@gmail.com
+	[user]
+[core]
+	editor = code --wait
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
 
 ```
 
