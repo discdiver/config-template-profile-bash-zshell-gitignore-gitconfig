@@ -116,18 +116,23 @@ dmypy.json
 # VS Code settings.json 2022
 ```
 {
-    "workbench.colorTheme": "Default Dark+",
-    "security.workspace.trust.untrustedFiles": "open",
-    "python.defaultInterpreterPath": "/Users/hale/opt/miniconda3/bin/python",
-    "terminal.integrated.defaultProfile.osx": "zsh",
-    "git.path": "/usr/bin/git",
-    "jupyter.pythonExportMethod": "commentMagics",
-    "python.formatting.provider": "black",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.startupEditor": "none",
     "terminal.integrated.inheritEnv": false,
-    "files.exclude": {
-        "**/.git": false
-    },
-    "gitlens.showWelcomeOnInstall": false
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.minimap.enabled": false,
+    "python.defaultInterpreterPath": "/Users/jeffhale/miniforge3/bin/python",
+    "zenMode.restore": false,
+    "redhat.telemetry.enabled": false,
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "black",
+    "explorer.confirmDelete": false,
+    "files.autoSave": "onFocusChange",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.formatOnSave": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "jupyter.pythonExportMethod": "commentMagics",
+    
 }
 ```
 
